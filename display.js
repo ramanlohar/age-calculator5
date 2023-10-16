@@ -191,23 +191,23 @@ function calculate(person, dd, mm, yyyy, formIndex) {
             <h3>Upcoming Birthday</h3>
             <div id="upcdd">
                 <input type="text" class="left" id="upfyd" readonly value="${dd}/${mm}/${cy+1}">
-                <input type="text" class="right" id="upfyvar" readonly value="${dd}/${mm}/${cy+1}">
+                <input type="text" class="right" id="upfyvar" readonly value="${dayOfWeek12}">
             </div>
             <div>
                 <input type="text" class="left" id="upfyd2" readonly value="${dd}/${mm}/${cy+2}">
-                <input type="text" class="right" id="upfyvar2" readonly value="${dd}/${mm}/${cy+2}">
+                <input type="text" class="right" id="upfyvar2" readonly value="${dayOfWeek22}">
             </div>
             <div>
                 <input type="text" class="left" id="upfyd3" readonly value="${dd}/${mm}/${cy+3}">
-                <input type="text" class="right" id="upfyvar3" readonly value="${dd}/${mm}/${cy+3}">
+                <input type="text" class="right" id="upfyvar3" readonly value="${dayOfWeek32}">
             </div>
             <div>
                 <input type="text" class="left" id="upfyd4" readonly value="${dd}/${mm}/${cy+4}">
-                <input type="text" class="right" id="upfyvar4" readonly value="${dd}/${mm}/${cy+4}">
+                <input type="text" class="right" id="upfyvar4" readonly value="${dayOfWeek42}">
             </div>
             <div>
                 <input type="text" class="left" id="upfyd5" readonly value="${dd}/${mm}/${cy+5}">
-                <input type="text" class="right" id="upfyvar5" readonly value="${dd}/${mm}/${cy+5}">
+                <input type="text" class="right" id="upfyvar5" readonly value="${dayOfWeek52}">
             </div>
         </div>
 
