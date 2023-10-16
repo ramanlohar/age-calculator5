@@ -20,9 +20,19 @@ function calculate(person, dd, mm, yyyy, formIndex) {
     // Example usage
     const currentDate1 = new Date();
     const birthdayDate = new Date(`${yyyy}-${mm}-${dd}`);
+    const birthdayDate1 = new Date(`${cy+1}-${mm}-${dd}`);
+    const birthdayDate2 = new Date(`${cy+2}-${mm}-${dd}`);
+    const birthdayDate3 = new Date(`${cy+3}-${mm}-${dd}`);
+    const birthdayDate4 = new Date(`${cy+4}-${mm}-${dd}`);
+    const birthdayDate5 = new Date(`${cy+5}-${mm}-${dd}`);
     const dayOfWeek = getDayOfWeek(currentDate1);
     // console.log("Current day of the week:", dayOfWeek);
     const dayOfWeek2 = getDayOfWeek(birthdayDate);
+    const dayOfWeek12 = getDayOfWeek(birthdayDate1);
+    const dayOfWeek22 = getDayOfWeek(birthdayDate2);
+    const dayOfWeek32 = getDayOfWeek(birthdayDate3);
+    const dayOfWeek42 = getDayOfWeek(birthdayDate4);
+    const dayOfWeek52 = getDayOfWeek(birthdayDate5);
 
     
 
