@@ -13,6 +13,10 @@ body {
     user-select: none;
 }
 
+label{
+    text-align:center;
+
+}
 header {
     background-color: #3498db;
     height: 47px;
